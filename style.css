@@ -1,0 +1,420 @@
+
+body {
+    min-width: 350px;
+
+   }
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
+    top: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: hsla(0,0%,100%,.98);
+}
+
+.logo-one{
+    width: 268px;
+    height: 33px;
+}
+
+
+.main-menu {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+    display:flex;
+
+}
+
+
+li {
+    padding-left:15px;
+}
+
+
+.navigation {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display:flex;   
+  justify-content: space-between; 
+  width: 80%;
+  align-items: center;
+  
+}
+
+.main-menu a {
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+    font-size: 15px;
+    font-family: "helvetica neue";
+    color: #ababab;
+}
+
+span a{
+    color: #00b39b !important;
+}
+
+.main-logo {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.logo-two {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin-top: 12px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+
+
+
+.main-content {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-grid {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    max-width: 1015px;
+    margin: auto;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+p {
+   
+        margin: .8em 0;
+        line-height: 1.75;
+        font-weight: 400;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        color: #747474;
+        font-size: 13px;
+        padding: 10px;
+}
+
+h2 {
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+
+.col-3 {
+    width: 44%;
+    border-radius: 10px;
+    padding: 1.375em .5em 0;
+    overflow: hidden;
+    background: #00ccb1;
+    margin-right: 20px;  
+}
+
+.col-4  {
+    width: 44%;
+    border-radius: 10px;
+    padding: 1.375em .5em 0;
+    overflow: hidden;
+    background: #3d83df;
+  
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    overflow:hidden;
+    
+    
+
+}
+
+
+span {
+    color:white;
+}
+
+.style-select select {
+    margin-left: 40px;
+    background: white;
+    border: 0;
+    font-weight: 600;
+    padding: 0 3.5em 0 1.5em;
+    height: 40px;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+
+.margin-left {
+    margin-left: 40px;
+}
+
+.text{
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;   
+        font-size: 1.625em;
+        color: #fff;
+        margin-top: .3em;   
+        margin: 1em 0;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 200;
+        letter-spacing: .3px;
+}
+
+h2 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.section__inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+}
+
+.brands h1 {
+  
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color: #00b39b;
+}   
+
+.brands__logos {
+ 
+    font-size: 0;
+    width: 67%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ ul {
+    margin: 0;
+    padding: 0;
+}
+
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0,0%,67%,.7);
+}
+
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+
+.grid {
+    margin: 0 -10px;
+    display: flex;
+}
+
+.stats__header {
+    margin-top: 2em;
+}
+
+[class*=col-] {
+   
+    min-height: 1px;
+    padding: 10px;
+}
+
+.stats__item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+.vert-align {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.vert-align>* {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.stats__item h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.vert-align {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.stats__item h3 {
+    font-size: 24px;
+    color: #00b39b;
+    margin: .5em 0;
+    font-weight: 200;
+}
+
+.offices {
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}   
+
+.offices__header {
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+
+@media (min-width: 871px)
+.offices__slider .office {
+    width: 33.33%;
+ 
+}
+
+@media (min-width: 871px)
+.offices__slider .office:nth-of-type(3n+1) {
+    clear: left;
+}
+
+.office {
+    padding: 10px;
+}
+
+.office__desc {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+}
+
+.office .btn {
+    float: right;
+}
+
+.btn--small {
+    font-size: .625rem;
+    padding: 1em 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+figure {
+    margin: 0;
+}
+
+.office__image img {
+    display: block;
+    margin: 0 auto;
+}   
+
+@media (min-width: 871px)
+.offices__slider .office {
+    width: 33.33%;
+  
+} 
+
+
+.offices__slider {
+display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.section__outer {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #3d83df;
+}
+
+
+.section__footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.center {
+
+    text-align: center;
+    color:gray;
+    font-size: 11px;
+}
